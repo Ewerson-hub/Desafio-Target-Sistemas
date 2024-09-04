@@ -57,3 +57,14 @@ function meetA(str) {
 
 console.log(meetA('ceaaAa'))
 ```
+## 3) Resposta : 77
+## 4) Respostas: 
+    a) 9
+    b) 128
+    c) 49
+    d) 100
+    e) 13
+    f) 200
+
+## 5 Resposta: 
+(já fiz esse exercício uma vez, mas percebo que em momento algum foi definido a estrutura das salas, em minha cabeça claramente pode existir um mundo onde eu estivesse em um sala que não necessariamente está conectada com as outras salas, que liga a um corredor ou a um espaço que me dá acesso as outras salas e que satisfaça totalmente as condições limitantes impostas na questão - e é mais simples pensar nessa possibilidade que a outra de observar o calor das lâmpadas que liguei !). Dito isso, eu acenderia 2 interruptores, sairia da sala em que estou e observaria quais salas estarão ligadas, ai eu descobriria 1 sala (a que deixei desligado), retornaria e depois deixaria ligado somente um dos interruptores que liguei no começo, observaria a que ligou e descobriria totalmente quais interruptores ligam cada sala.
